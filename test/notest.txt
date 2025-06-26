@@ -1,0 +1,17 @@
+history
+ 1057  python -m pytest -m "transformation" -v
+ 1058  python -m pytest -m "nor transformation" -v
+ 1059  python -m pytest -m "not transformation" -v
+ 1060  clear
+ 1061  python -m pytest -m markers
+ 1062  python -m pytest -m --markers
+ 1063  python -m pytest -m "markers"
+ 1064  python -m pytest -m "not transformation" -v
+ 1065  python -m pytest -m markers
+ 1066  python -m pytest -m fixtures
+ 1067  python -m pytest -m "not slow" -v
+ 1068  python -m pytest -m "latest" -v
+ 1069  python -m pytest -m "latest" -v
+ 1070  python -m pytest -v
+ 1071  python -m pytest -v
+ 1072  python -m pytest -v
